@@ -233,7 +233,7 @@ line-height: 1.688rem;
     #carouselExampleInterval{
         width: 100%;
     }
-    .addmt0-5{
+    .addmt0-5,.search{
         margin-top: 1rem;
     }
     .mt0-5{
@@ -241,6 +241,15 @@ line-height: 1.688rem;
     }
     .eurosection{
         border-radius: 1rem;
+    }
+    .navbar-toggler{
+        margin-left: 1.5rem;
+    }
+    .fifty{
+        margin: 0.4rem 1rem 0rem 0rem;
+    }
+    .vertical{
+        margin: 0.4rem 1.1rem 0rem 0rem;   
     }
 }
 @media screen and (min-width:48rem) and (max-width:62rem) {
@@ -250,6 +259,7 @@ line-height: 1.688rem;
     .eurobig{
             font-size: 3.125rem;
             font-weight: 700;
+            line-height: 3.5rem;
     }
     .search{
         width: 18.813rem;
@@ -299,6 +309,9 @@ line-height: 1.688rem;
    .mt3{
     margin-top: 2rem;
     }
+    .euro1 {
+        margin: 2rem;
+    }
 }
 @media screen and (min-width:12.5rem) and (max-width:48rem) {
     .navbar-brand{
@@ -347,11 +360,8 @@ line-height: 1.688rem;
         height: 17.5rem;
         width: 15rem;
     }
-    .vector-img{
-        height: 3rem;
-    }
-    .vector-img2{
-        height: 7rem;
+    .vector-img,.vector-img2{
+        display: none;
     }
     .addmt1{
         margin-top: 0.5rem;
@@ -396,6 +406,12 @@ line-height: 1.688rem;
         height: 2.5rem;
         width: 2.5rem;
     }
+    body{
+        padding-top:3rem;
+    }
+    .vertical{
+    height: 3.463rem;
+    }  
 }
 @media screen and (min-width:62rem) and (max-width:75rem) {
     .eurobig{
